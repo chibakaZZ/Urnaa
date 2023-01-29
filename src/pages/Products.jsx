@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from '../components/header/Header'
 
-function products() {
+function Products() {
   return (
     <div>
-      <Header/>
+      hehehe
     </div>
   )
 }
 
-export default products
+export default Products;

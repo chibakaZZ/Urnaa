@@ -1,33 +1,45 @@
 import React from 'react';
-import Hamster from './components/hamster/Hamster';
-import Rabbit from './components/rabbit/Rabbit';
-import GuineaPig from './components/guineapig/GuineaPig';
-import Footer from './components/footer/Footer';
-import NavbarImg from './components/navbarimg/NavbarImg';
-import Parrot from './components/parrot/Parrot';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './components/shorts/footer/Footer';
+import NavbarImg from './components/navbar/navbarimg/NavbarImg';
 import Home from './pages/Home';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import Products from './pages/Products';
-
+import About from './pages/About';
 
 function App() {
   return (
       <React.Fragment>
         <NavbarImg />
-        <GuineaPig />
-        <Rabbit />
-        <Hamster/>
-        <Parrot/>
+        <Home/>
         <Footer />
-
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/products" element={<Products/>} />
-          </Routes>
-        </Router>
       </React.Fragment>
   )
 }
 
 export default App;
+
+// import ReactDOM from "react-dom/client";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Layout from "./pages/Layout";
+// import Home from "./pages/Home";
+// import Blogs from "./pages/Blogs";
+// import Contact from "./pages/Contact";
+// import NoPage from "./pages/NoPage";
+
+// export default function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="blogs" element={<Blogs />} />
+//           <Route path="contact" element={<Contact />} />
+//           <Route path="*" element={<NoPage />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<App />);
