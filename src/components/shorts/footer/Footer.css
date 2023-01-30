@@ -1,55 +1,55 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(32, 32, 41);
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(32, 32, 41);
 }
 
-.footer1{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.199);
-    margin-left: 25px;
-    margin-right: 25px;
+.footer1 {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.199);
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.footer2{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.199);
-    margin-left: 25px;
-    margin-right: 25px;
+.footer2 {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.199);
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.footer3{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.199);
-    margin-left: 25px;
-    margin-right: 25px;
+.footer3 {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.199);
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.footericons{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.footericons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.facebook{
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
+.facebook {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
 }
 
-.instagram{
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
+.instagram {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
 }
 
-.download{
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
+.download {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
 }

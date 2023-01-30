@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/shorts/footer/Footer";
+import "./Pages.css";
 
 function Products() {
   return (
     <div>
-      hehehe
+      <div className="products"></div>
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default Products;
