@@ -1,13 +1,11 @@
 import React from "react";
-import Footer from "../components/shorts/footer/Footer";
-import "./Pages.css";
+import Swiper from "../components/shorts/swiper/Swiper";
 
 function Products() {
   return (
-    <div>
-      <div className="products"></div>
-      <Footer />
-    </div>
+    <React.Fragment>
+      <Swiper />
+    </React.Fragment>
   );
 }
 

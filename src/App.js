@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from './components/navbar/Header';
+import Footer from './components/shorts/footer/Footer';
 // import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

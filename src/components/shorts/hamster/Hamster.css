@@ -1,48 +1,47 @@
-.newsletter{
-    width: 100%;
-    height: 300px;
-    background-color: rgba(255, 228, 196, 0.377);
-    display: flex;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    align-items: center;
-    user-select: none;
+.newsletter {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(255, 228, 196, 0.377);
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  align-items: center;
+  user-select: none;
 }
 
-.newsletter1{
-    width: 30%;
-    height: 300px;
-    background-image: url(https://i.pinimg.com/736x/b6/74/77/b6747786e4d9fc3e409f60a0019f1c4b--hamster-animals.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 200px;
-    margin-right: 5px;
-    border-radius: 25%;
+.newsletter1 {
+  width: 30%;
+  height: 300px;
+  background-image: url(https://i.pinimg.com/736x/b6/74/77/b6747786e4d9fc3e409f60a0019f1c4b--hamster-animals.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 400px;
+  margin-right: 5px;
+  border-radius: 25%;
 }
 
-.newsletter2{
-    width: 60%;
-    height: 100%;
-    margin-right: 200px;
-    margin-left: 5px;
-    text-align: center;
+.newsletter2 {
+  width: 60%;
+  height: 100%;
+  margin-right: 400px;
+  margin-left: 5px;
+  text-align: center;
 }
 
-.cart{
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    background-color: rgb(247, 220, 181);
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin-right: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    
+.cart {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  background-color: rgb(247, 220, 181);
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.cart:hover{
-    background-color: rgb(202, 174, 109);
+.cart:hover {
+  background-color: rgb(202, 174, 109);
 }

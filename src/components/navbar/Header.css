@@ -69,7 +69,7 @@
   background-color: rgb(202, 174, 109);
 }
 
-@media screen and (max-width: 1011px) {
+@media screen and (max-width: 1042px) {
   .menu a {
     display: none;
   }

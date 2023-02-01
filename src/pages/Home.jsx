@@ -1,5 +1,5 @@
 import React from "react";
-import "./Pages.css";
+import "./All.css";
 import GuineaPig from "../components/shorts/guineapig/GuineaPig";
 import Rabbit from "../components/shorts/rabbit/Rabbit";
 import Hamster from "../components/shorts/hamster/Hamster";
